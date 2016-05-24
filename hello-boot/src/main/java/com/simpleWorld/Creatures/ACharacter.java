@@ -1,11 +1,10 @@
 package com.simpleWorld.Creatures;
 
-
 import org.springframework.stereotype.Component;
 
 @Component(value = "ACharacter")
 public abstract class ACharacter implements IMoveActions {
-	
+
 	private int strength = 0;
 	private int vitality = 0;
 	private int intelligence = 0;
@@ -48,7 +47,7 @@ public abstract class ACharacter implements IMoveActions {
 	@Override
 	public void move() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	public int getStrength() {
