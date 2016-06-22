@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dragonisdesignapp.myapplication.MainActivity">
+    <item
+        android:id="@+id/Item1"
+        android:title="@string/Item1"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always">
+
+        <!-- <menu>
+             <item
+                 android:id="@+id/action_show_ir_list"
+                 android:icon="@mipmap/ic_launcher"
+                 android:showAsAction="always|withText"
+                 android:title="@string/app_name"/>
+         </menu>-->
+    </item>
+    <item
+        android:id="@+id/Item2"
+        android:icon="@mipmap/ic_launcher"
+        android:showAsAction="always|withText"
+        android:title="@string/Item2" />
+    <item
+        android:id="@+id/Item3"
+        android:icon="@mipmap/ic_launcher"
+        android:showAsAction="always|withText"
+        android:title="@string/Item3" />
+    <item
+        android:id="@+id/Item4"
+        android:icon="@mipmap/ic_launcher"
+        android:showAsAction="always|withText"
+        android:title="@string/Item4" />
+
+</menu>
